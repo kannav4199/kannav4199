@@ -6,16 +6,23 @@
 
 html,body{
     height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80");
+    /*background-image: url("https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80");*/
     max-width: 100%;
     max-height: 100%;
     /*background-position: relative;*/
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #F4F1F0;
 
 
 }
 
+
+.ks{
+width:50%;
+
+
+}
 .bottom_footer .ii{
     padding-left: 4px;
 }
@@ -398,7 +405,7 @@ text-decoration: none;
 
 .about_area img{
 
-height: 40vh;
+height: 40%;
 
 
   border: 1px solid #ddd;
