@@ -258,12 +258,19 @@ position: absolute;
 }
 
 
+.pro{
+  text-decoration: underline;
+}
 
-
-
+.leftside {
+  font-size: 2.5rem;
+  font-family: "Montserrat",sans-serif;
+font-weight: normal;
+}
 .contact-form {
   margin: 0 auto;
   width: 450px;
+  position: relative;
 }
 form{
 transition: all 4s ease-in-out;}
