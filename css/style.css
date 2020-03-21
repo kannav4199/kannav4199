@@ -1,0 +1,231 @@
+*{
+	padding: 0;
+	margin:0;
+
+}
+
+html,body{
+	height: 100vh;
+	width: 100%;
+  
+
+}
+
+nav{
+	font-family: 'Bitter', serif;
+	letter-spacing: 1px;
+}
+
+
+.mynav a {
+
+	text-decoration:none;
+    color:#181174 !important;
+    margin-right: 8px;
+ 	padding:8px 8px 8px 8px;
+    border-bottom: 2px solid transparent;
+}
+
+.mynav a:hover {
+    border-bottom: 2px solid #181174;
+}
+
+
+/* li.active{
+	border-bottom:2px solid #181174;
+	border-width: 22%;
+}
+*/
+
+
+#container{
+	min-height: 100%;
+	margin:auto;
+	padding:auto;
+	background-image: linear-gradient(to right top, #02e0ff, #29d6ff, #45ccff, #5cc1fb, #70b6f4, #6eb9f5, #6bbcf7, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+background-repeat: no-repeat;
+letter-spacing: 1px;
+background-size: 100% 100%;
+
+	text-align: center;
+}
+
+.pro{
+border-bottom: 2px solid black;
+
+}
+#main{
+	overflow: auto;
+	font-size:2rem;
+	padding-top: 15%;
+	padding-bottom: 100px;
+}
+
+.btn{
+     text-decoration: none;
+     margin-right: 20px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     padding-bottom: 10px;
+     border-radius: 10px;
+     font-family: 'Bitter', serif;
+
+
+}
+
+.btn:hover{
+	background-color: white;
+	color: purple;
+transform: translateY(-3px);
+box-shadow: 0 0 10px 0 grey;
+transition: 0.3s;
+}
+
+
+.info{
+
+	overflow: auto;
+	font-size:2rem;
+	padding-top: 4%;
+	padding-bottom: 100px;
+	font-family: 'Bitter', serif;
+font-family: 'Arvo', serif;
+letter-spacing: 1px;
+}
+
+
+.normal{
+	letter-spacing: 1px;
+	
+	font-family: 'Bitter', serif;
+	font-weight: 100;
+	font-family: 'Baloo Chettan 2', cursive;	
+
+}
+
+.card-text{
+	letter-spacing: 1px;
+	
+	font-family: 'Bitter', serif;
+	font-weight: 600;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+.about_area{
+
+	margin:4% auto 4% auto;
+	padding:auto;
+	/*font-family: 'Bitter', serif;*/
+	font-weight: 700;
+font-family: 'Arvo', serif;
+letter-spacing: 1px;
+}
+
+
+
+
+.normal{
+font-family: 'Arvo', serif;
+font-weight: lighter;
+}
+.infopara{
+	font-family: 'Barlow', sans-serif;
+letter-spacing: 1px;
+	margin: 2% auto 2% 2%;
+
+}
+
+.pic{
+
+border: 4px solid #ddd;
+width: 28%;
+height: 28%;
+border-radius: 40%;
+}
+
+.pic:hover{
+border-radius: 40%;
+
+border: 5px solid lightblue;
+
+}
+.project{
+	font-size: 2.5rem;
+	padding-bottom:8%;
+	padding-top: 10px;
+
+}
+
+.card{
+	width: 60%;
+	/*align-content: center;*/
+	padding :auto;
+
+	/*margin-bottom: 20%;*/
+	margin:auto auto 10% auto;
+
+
+}
+
+.card-header{
+	font-weight: bold;
+	font-size: 1.2rem;
+	font-family: 'Bitter', serif;
+
+}
+
+.card:hover{
+transform: translateY(-20px);
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.8);
+transition: 0.4s;
+background: #ccffef;
+}
+
+.card .btn{
+	margin-top: 4%;
+}
+
+footer{
+	text-align: center;
+	font-family: 'Bitter', serif;
+
+min-height: 50px;
+position: relative;
+background-color: lightgrey;
+padding-top: 1%;
+}
+
+
+.contact_info{
+
+	margin: auto;
+	padding:20px auto auto auto;
+	/*padding:auto;*/
+	letter-spacing: 1px;
+	
+	/*font-family: 'Bitter', serif;*/
+	font-family: 'Bitter', serif;
+
+
+
+}
+
+
+.contact_tem h6{
+		color: darkblue;
+}
+
+.contact_info:hover{
+
+	transform: translateY(-20px);
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.8);
+transition: 0.4s;
+width: 50%;
+padding-bottom: 2%;
+
+color:white;
+}
+
+.contact_tem{
+	display: inline;
+}
